@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.vehicle-list {
+    width: 30%;
+    float: left;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.vehicle-list h1 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.vehicle-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vehicle-list .vehicle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.vehicle-list .vehicle img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.vehicle-list .vehicle span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.vehicle-preview {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.vehicle-preview h1 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.vehicle-preview #preview-image {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.vehicle-preview #test-drive-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vehicle-preview #test-drive-btn:hover {
+    background-color: #0062cc;
+}
